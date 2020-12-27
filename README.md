@@ -1,2 +1,6 @@
 # CS-4780-FP
-A Machine Learning algorithm that predicts the outcome of an election based on certain geographical and demographical features
+Cornell CS 4780 (Final Project)
+
+Group members: David Schmaier (dms482), Philip Ayoub (pja66)
+
+Overview:	
