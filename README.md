@@ -4,7 +4,7 @@ Cornell CS 4780 (Final Project)
 Group members: David Schmaier (dms482), Philip Ayoub (pja66)
 
 Overview:	
-
+/n
   Basic Solution:
     -We standardized the 6 numeric features in the test and train data by subtracting the mean and dividing by the standard deviation of each feature. We standardized the features to use with the logistic regression classifier whereas standardization is not needed for random forests.
     -We chose to use a random forest because among different democratic counties there is a lot diversity in demographics, so we didn't think that a linear classifier would perform well. It seemed that it would be easier to find an ensemble of different decision rules that identify rural democratic counties and urban democratic counties than to find a kernel that maps these two very different types of democratic counties to the same region. We chose to also try a logistic regression classifier to serve as a baseline to compare with our random forest because it has relatively few parameters.
